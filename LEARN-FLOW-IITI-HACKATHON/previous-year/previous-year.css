@@ -1,0 +1,113 @@
+/* Previous Year Page Styles (previous-year.css) */
+
+/* Body background in pastel */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling with soft pastel background */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f3e5f5; /* pastel lavender */
+    color: #333;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: #6a1b9a; /* deep pastel purple */
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: #6a1b9a;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #e1bee7; /* lighter pastel purple */
+}
+
+/* Subject header */
+.subject-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    font-size: 26px;
+    font-family: 'Georgia', serif;
+}
+
+/* Chapter cards layout */
+.chapter-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 280px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    background-color: #f8bbd0; /* soft pastel rose */
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #880e4f; /* deeper pastel rose */
+}
+
+.card p {
+    color: #666;
+    font-size: 14px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    color: #fff;
+    background-color: #6a1b9a;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #4a148c; /* deeper purple */
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .chapter-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
